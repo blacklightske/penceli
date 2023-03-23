@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>signup</title>
+        <link rel="stylesheet" href="style.css">
+        <links href="fonts/PoorStory-Regular.ttf">
+            
+        </head>
+
+        <body>
+            <center>
+                <table height="100%" width="100%">
+                    <tr>
+                        <td>
+
+                            <nav id="navbar">
+                                <h1><img src="photos/logo.png" alt="penceli" /></h1>
+                                <br>
+                                <center>
+                                    <h1>Penceli</h1>
+                                </center>
+
+
+                                <ul>
+                                    <li><a class="active" href="signup.html">Sign
+                                            up</a></li>
+                                    <li><a class="active" href="login.html">Log
+                                            in</a></li>
+
+                                </ul>
+                            </nav>
+                        </td>
+                    </tr>
+                    <tr valign="top">
+                   <td height="500" width="1000">
+                            <div text align="center" id="forms">
+                                <h1>CREATE ACCOUNT</h1>
+                                <p>already have acount??<a href="login.html">LOG
+                                        IN</a></p>
+                                <br>
+                                <p class="mess" id="mainerror"></p>
+                                <br>
+
+                                <label for="fname">first name</label>
+                                <p class="mess" id="error"></p>
+                                <input type="text" name="fname" id="fname"
+                                    placeholder="First Name">
+
+
+
+                                <label for="sname">Surname</label>
+                                <p class="mess" id="error1"></p>
+                                <input type="text" name="sname" id="sname"
+                                    placeholder="Surname Name">
+
+
+
+
+                                <label for="uname">Username:</label>
+                                <p class="mess" id="error2"></p>
+                                <input type="text" name="Username" id="uname"
+                                    placeholder="User Name">
+
+
+
+                                <label for="email">email</label>
+                                <p class="mess" id="error3"></p>
+                                <input type="email" name="email" id="email"
+                                    placeholder="email">
+
+
+
+                                <label for="phone">phone number</label>
+                                <p class="mess" id="error4"></p>
+                                <input type="tel" name="phone" id="phone"
+                                    placeholder="phone number">
+
+
+
+                                <label for="pword">password</label>
+                                <p class="mess" id="error5"></p>
+                                <p>password should not be less than 8 characters</p>
+                                <input type="password" name="pword" id="pword"
+                                    placeholder="enter password">
+
+
+
+
+                                <label for="pword1">confirm password</label>
+                                <p class="mess" id="error6"></p>
+                                <input type="password" id="pword1"
+                                    placeholder="confirm password">
+
+
+
+
+                                <button id="button" onclick="signup()">signup</button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr height="300" id="footer">
+
+                        <td colspan="">
+                            <h1>contact us</h1>
+                            <p>want to know more about us</p>
+                            <br><br>
+                            <a href="#navbar">back to top</a><br><br>
+                            <h2 class="socials">Social Networks</h2>
+                            <ul>
+                                <a href="https://www.facebook.com/login/"
+                                    class="icon"><img src="photos/icons/fb.jpeg"
+                                        alt="facebook"></a>
+                                <a
+                                    href="https://www.instagram.com/accounts/login/"
+                                    class="icon"><img
+                                        src="photos/icons/insta.jpeg"
+                                        alt="instagram"></a>
+                                <a
+                                    href="https://mail.google.com/mail/u/0/#inbox"
+                                    class="icon"><img
+                                        src="photos/icons/mail.png"
+                                        alt="e-mail"></a>
+                                <a href="https://twitter.com/login"
+                                    class="icon"><img
+                                        src="photos/icons/twiter.png"
+                                        alt="twitter"></a>
+                            </ul>
+                            <br>
+                            <p>penceli.com where we bring art to life</p>
+                        </td>
+                    </tr>
+                </table>
+            </center>
+            <script src="javavalidate.js"></script>
+        </body>
+
+    </html>

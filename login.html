@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>template</title>
+        <link rel="stylesheet" href="style.css">
+        <links href="fonts/PoorStory-Regular.ttf">
+    </head>
+    <body>
+        <center>
+        <table height="100%" width="100%">
+            <tr>
+                <td colspan="2">
+                    
+                    <nav id="navbar">
+                        <h1><img src="photos/logo.png" alt="penceli" /></h1>
+                        <br>
+                        <center><h1>Penceli</h1></center>
+
+        
+                        <ul>
+                        
+                      <li><a  class="active" href="signup.html">Sign up</a></li>
+                      <li><a  class="active" href="login.html">Log in</a></li>
+          
+                  </ul>
+                  </nav>
+          </td></tr>
+                <tr  valign="top" >
+                                       <td id="bodie">
+                        <center>
+                            <div id="forms" style="background-image: url('photos/lion.jpeg'); background-repeat: no-repeat; background-size: 50%;">
+                                <h1>log in</h1>
+                                <p>Dont have an account??</p>
+                                 <a href="signup.html">sign up</a>
+                                 <p class="mess"  id="mainerr"></p>
+                                  <br><br>
+                                  <p id="nnn"></p>
+                                <label for="usename">Username</label><br>
+                                <p class="mess"  id="err"></p>
+                                <input type="text" id="usename" name="uname" value="" placeholder="username">
+                                <br><br>    
+                                <label for="psword">password</label><br>
+                                <p class="mess"  id="err1"></p>
+                                <input type="password" id="psword" name="pword" placeholder="password" >
+                                <br><br>
+                                <button  onclick="login()" >login</button>                            
+                                
+                            </div>
+                            </center>
+                    </td>
+                    </tr>
+                    <tr  height="300" id="footer">
+                        
+                        <td colspan="2">
+                          <h1>contact us</h1>
+                          <p>want to know more about us</p>  
+                        <br><br>
+                        <a href="#navbar">back to top</a><br><br>
+                        <h2 class="socials">Social Networks</h2>
+                        <ul>
+					        <a href="https://www.facebook.com/login/" class="icon"><img src="photos/icons/fb.jpeg" alt="facebook"></a> 					        
+					        <a href="https://www.instagram.com/accounts/login/" class="icon"><img src="photos/icons/insta.jpeg" alt="instagram"></a>
+                            <a href="https://mail.google.com/mail/u/0/#inbox" class="icon"><img src="photos/icons/mail.png" alt="e-mail"></a>
+                            <a href="https://twitter.com/login" class="icon"><img src="photos/icons/twiter.png" alt="twitter"></a>
+                        </ul>
+                            <br>
+                            <p>penceli.com where we bring art to life</p>
+                        </td>
+                    </tr>
+         </table>
+         <script src="login.js"></script>
+         
+    </body>
+</html>
